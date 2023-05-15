@@ -28,7 +28,7 @@ def get_file_content_as_string(path):
 
 @st.cache(show_spinner=False)
 def load_model():
-    model = tf.keras.models.load_model('ezrealmodel.h5')
+    model = tf.keras.models.load_model('model512.h5')
 
     return model
 
